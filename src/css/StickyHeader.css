@@ -1,0 +1,51 @@
+body {
+  height: 3000px;
+  margin: 0; }
+
+#header-banner {
+  background: url(../img/ntuu-kpi.png) no-repeat;
+  background-size: cover;
+  padding-top: 150px; }
+  #header-banner #logo {
+    background: transparent url(../img/kpi_logo.png) center left no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 150px;
+    width: 350px;
+    text-align: right;
+    text-decoration: none;
+    line-height: 150px;
+    color: #dfdfdf;
+    text-shadow: 2px 1px 5px black; }
+    #header-banner #logo h1 {
+      margin: 0;
+      font-family: Geneva, Arial, Helvetica, sans-serif; }
+
+.StickyHeader {
+  font-size: 18px;
+  margin: 0; }
+  .StickyHeader ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: right;
+    width: 80%;
+    max-width: 100%; }
+    .StickyHeader ul li {
+      display: inline-block;
+      line-height: 60px;
+      margin-left: 20px; }
+      .StickyHeader ul li a {
+        text-decoration: none;
+        color: #a9abae; }
+  .StickyHeader.sticky-one {
+    background: #292f36; }
+  .StickyHeader.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    margin: 0; }
