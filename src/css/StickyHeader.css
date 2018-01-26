@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Enriqueta';
+  src: local("Enriqueta-Regular"), url(http://themes.googleusercontent.com/static/fonts/enriqueta/v2/-KTKVm0Mx9ZCRXL9CXVIbaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: local("Helvetica Neue"), local("HelveticaNeue"), url(http://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format("truetype"); }
+
 body {
   height: 3000px;
   margin: 0; }
@@ -5,7 +13,7 @@ body {
 #header-banner {
   background: url(../img/ntuu-kpi.png) no-repeat;
   background-size: cover;
-  padding-top: 150px; }
+  height: 150px; }
   #header-banner #logo {
     background: transparent url(../img/kpi_logo.png) center left no-repeat;
     background-size: contain;
@@ -22,6 +30,27 @@ body {
     #header-banner #logo h1 {
       margin: 0;
       font-family: Geneva, Arial, Helvetica, sans-serif; }
+
+#sticky {
+  height: 60px; }
+
+#content {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px; }
+  #content h1 {
+    font-family: 'Enriqueta', Arial, serif;
+    line-height: 1.25;
+    margin: 0 0 10px;
+    font-size: 40px;
+    font-weight: bold; }
+  #content p {
+    color: #333333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5625;
+    margin-bottom: 15px; }
 
 .StickyHeader {
   font-size: 18px;
