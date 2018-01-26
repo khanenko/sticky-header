@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Enriqueta';
-  src: local("Enriqueta-Regular"), url(http://themes.googleusercontent.com/static/fonts/enriqueta/v2/-KTKVm0Mx9ZCRXL9CXVIbaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+  src: local("Enriqueta-Regular"), url(https://themes.googleusercontent.com/static/fonts/enriqueta/v2/-KTKVm0Mx9ZCRXL9CXVIbaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: local("Helvetica Neue"), local("HelveticaNeue"), url(http://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format("truetype"); }
+  src: local("Helvetica Neue"), local("HelveticaNeue"), url(https://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format("truetype"); }
 
 body {
   height: 3000px;
