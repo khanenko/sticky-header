@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
 module.exports = {
     entry: "./src/index.js",
@@ -8,10 +8,28 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader!autoprefixer-loader",
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            config: {
+                                path: './postcss.config.js'
+                            }
+                        }
+                    },
+                ],
                 exclude: [/node_modules/, /public/]
             },
             {
@@ -27,9 +45,7 @@ module.exports = {
                         presets:['react']
                     }
             }
-        ]
+        ],
     }
-    // plugins: {
-    //     "plugins": ["react-hot-loader/babel"]
-    // }
+
 };
