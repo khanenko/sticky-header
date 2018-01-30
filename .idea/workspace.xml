@@ -2,141 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428d97cd-b773-4686-adba-ae3db3d6bb83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/node_modules/loader-utils/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/node_modules/loader-utils/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/node_modules/loader-utils/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/node_modules/loader-utils/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-values.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-items.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/stretch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/.bin/browserslist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/cli.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/browserslist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.min.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64_utf8.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-base64/bower.json.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-base64/package.json.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/lib/safe-parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/lib/safe-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/lib/safe-tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/has-flag/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/has-flag/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/has-flag/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/has-flag/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/3b52788c9b118741b5999b55d221ba42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/3ef4bd7cd633e5c1bec6a4f32d73e56b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/a8a7ba7c3ef98e7687393d8751e162d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/bdce298af091ceb7897fd8470edf2f1d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/fbca01d0c3ae03130ea6a89ed4bfccc1.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/README.md" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/at-rule.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/at-rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/brackets.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/brackets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/browsers.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/browsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/declaration.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/declaration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-content.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-items.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-items.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-self.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-self.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-size.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-size.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/block-logical.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/block-logical.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-image.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-radius.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-radius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/break-props.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/break-props.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/cross-fade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-flex.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-grid.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-basis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-direction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-flow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-grow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-shrink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/fullscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/gradient.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/gradient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-end.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-end.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-align.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-start.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-rendering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-set.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/inline-logical.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-content.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-border.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-border.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/order.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/pixelated.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/pixelated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/transform-decl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/writing-mode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/info.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-selector.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-value.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixer.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixes.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/processor.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/processor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/resolution.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/resolution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/selector.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/supports.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/supports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/transition.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/value.js" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.js" afterPath="$PROJECT_DIR$/node_modules/js-base64/base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.min.js" afterPath="$PROJECT_DIR$/node_modules/js-base64/base64.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/base64_utf8" afterPath="$PROJECT_DIR$/node_modules/js-base64/base64_utf8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/bower.json" afterPath="$PROJECT_DIR$/node_modules/js-base64/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/package.json" afterPath="$PROJECT_DIR$/node_modules/js-base64/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/README.md" afterPath="$PROJECT_DIR$/node_modules/postcss/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/docs/source-maps.md" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/source-maps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/comment.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/rule.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/browser.js" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/license" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/license" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/readme.md" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-polyfill/package.json" afterPath="$PROJECT_DIR$/node_modules/babel-polyfill/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build/bundle.js" afterPath="$PROJECT_DIR$/public/build/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -158,7 +27,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="-177">
               <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
@@ -192,8 +61,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+            <state relative-caret-position="54">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -497,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22683000" />
+    <option name="totallyTimeSpent" value="24887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,14 +590,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -737,10 +598,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
