@@ -9911,54 +9911,58 @@ module.exports = function (regExp, replace) {
 
 /***/ }),
 /* 343 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_dom__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_polyfill__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_polyfill___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_polyfill__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_StickyHeader_jsx__ = __webpack_require__(355);
 
 
+var _reactDom = __webpack_require__(344);
 
+var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _react = __webpack_require__(67);
 
+var _react2 = _interopRequireDefault(_react);
 
-__WEBPACK_IMPORTED_MODULE_0_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+__webpack_require__(99);
+
+var _StickyHeader = __webpack_require__(355);
+
+var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_reactDom2.default.render(_react2.default.createElement(
     'div',
     null,
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_3__components_StickyHeader_jsx__["a" /* default */],
+    _react2.default.createElement(
+        _StickyHeader2.default,
         { className: 'sticky-one' },
-        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+        _react2.default.createElement(
             'ul',
             null,
-            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+            _react2.default.createElement(
                 'li',
                 null,
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                _react2.default.createElement(
                     'a',
                     { href: '#' },
                     'Home'
                 )
             ),
-            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+            _react2.default.createElement(
                 'li',
                 null,
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                _react2.default.createElement(
                     'a',
                     { href: '#' },
                     'News'
                 )
             ),
-            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+            _react2.default.createElement(
                 'li',
                 null,
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                _react2.default.createElement(
                     'a',
                     { href: '#' },
                     'Contact'
@@ -27259,75 +27263,112 @@ module.exports = camelize;
 
 /***/ }),
 /* 355 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(356);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(67);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(356);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 __webpack_require__(359);
 
-class StickyHeader extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
-    componentDidMount() {
-        const body = document.body;
-        const docEl = document.documentElement;
-        const scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
-        const clientTop = docEl.clientTop || body.clientTop || 0;
+var StickyHeader = function (_React$Component) {
+    _inherits(StickyHeader, _React$Component);
 
-        const setInitialHeights = elements => {
-            [].forEach.call(elements, sticky => {
-                const box = sticky.getBoundingClientRect();
-                const top = box.top + scrollTop - clientTop;
+    function StickyHeader() {
+        _classCallCheck(this, StickyHeader);
 
-                sticky.setAttribute('data-sticky-initial', `${top}`);
-            });
-        };
-
-        const stickies = document.querySelectorAll('[data-sticky]');
-        setInitialHeights(stickies);
-
-        document.addEventListener('scroll', () => {
-            const top = window.pageYOffset || docEl.scrollTop || body.scrollTop;
-            const bottom = docEl.scrollHeight || body.scrollHeight;
-
-            [].forEach.call(stickies, sticky => {
-                const stickyInitial = parseInt(sticky.getAttribute('data-sticky-initial'), 10);
-                const stickyEnter = parseInt(sticky.getAttribute('data-sticky-enter'), 10) || stickyInitial;
-                const stickyExit = parseInt(sticky.getAttribute('data-sticky-exit'), 10) || bottom;
-
-                if (top >= stickyEnter && top <= stickyExit) {
-                    sticky.classList.add('sticky');
-                } else {
-                    sticky.classList.remove('sticky');
-                }
-            });
-        });
+        return _possibleConstructorReturn(this, (StickyHeader.__proto__ || Object.getPrototypeOf(StickyHeader)).apply(this, arguments));
     }
 
-    render() {
-        const { className, enter, exit, children } = this.props;
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            {
-                className: `StickyHeader ${className}`,
-                'data-sticky': true,
-                'data-sticky-enter': enter,
-                'data-sticky-exit': exit
-            },
-            children
-        );
-    }
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = StickyHeader;
+    _createClass(StickyHeader, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var body = document.body;
+            var docEl = document.documentElement;
+            var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+            var clientTop = docEl.clientTop || body.clientTop || 0;
+
+            var setInitialHeights = function setInitialHeights(elements) {
+                [].forEach.call(elements, function (sticky) {
+                    var box = sticky.getBoundingClientRect();
+                    var top = box.top + scrollTop - clientTop;
+
+                    sticky.setAttribute('data-sticky-initial', '' + top);
+                });
+            };
+
+            var stickies = document.querySelectorAll('[data-sticky]');
+            setInitialHeights(stickies);
+
+            document.addEventListener('scroll', function () {
+                var top = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+                var bottom = docEl.scrollHeight || body.scrollHeight;
+
+                [].forEach.call(stickies, function (sticky) {
+                    var stickyInitial = parseInt(sticky.getAttribute('data-sticky-initial'), 10);
+                    var stickyEnter = parseInt(sticky.getAttribute('data-sticky-enter'), 10) || stickyInitial;
+                    var stickyExit = parseInt(sticky.getAttribute('data-sticky-exit'), 10) || bottom;
+
+                    if (top >= stickyEnter && top <= stickyExit) {
+                        sticky.classList.add('sticky');
+                    } else {
+                        sticky.classList.remove('sticky');
+                    }
+                });
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _props = this.props,
+                className = _props.className,
+                enter = _props.enter,
+                exit = _props.exit,
+                children = _props.children;
+
+            return _react2.default.createElement(
+                'div',
+                {
+                    className: 'StickyHeader ' + className,
+                    'data-sticky': true,
+                    'data-sticky-enter': enter,
+                    'data-sticky-exit': exit
+                },
+                children
+            );
+        }
+    }]);
+
+    return StickyHeader;
+}(_react2.default.Component);
+
+exports.default = StickyHeader;
 
 
 StickyHeader.propTypes = {
-    className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string.isRequired,
-    children: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.node.isRequired
+    className: _propTypes2.default.string.isRequired,
+    children: _propTypes2.default.node.isRequired
 };
 
 /***/ }),
