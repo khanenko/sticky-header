@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import "babel-polyfill";
 
 import StickyHeader from './components/StickyHeader.jsx';
 
